@@ -21,4 +21,4 @@ docker run -d --restart unless-stopped --pull always --name tinnn exordelabs/exo
 
 docker run -d --restart unless-stopped --pull always --name tinnn1 exordelabs/exorde-cli -m 0x7886BF372f519741A636bE71d1d4b29f6978844c -l 4
 
-docker continer logs -f tinnn
+docker container logs -f tinnn
